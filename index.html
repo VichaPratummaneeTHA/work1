@@ -1,154 +1,260 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>CSS MY Site</title>
-  <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="icon" href="cowboy-icon.png">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/61ac1ba56f.js" crossorigin="anonymous"></script>
+
+  <!-- CSS styles -->
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Welcome To EdgeLedger</title>
 </head>
+<body id="home">
+  <header class="hero">
 
-<body>
-
-  <!--container_top-->
-  <div class="container_top">
-    <img class="top_cloud" src="images/cloud.png" alt="cloud.png">
-    <h1> My Name is Vicha </h1>
-    <img class="parrot_bird" src="images/parrot.png" alt="cloud.png">
-    <h2 class="h2_con_top" >I am a <span class="wed">Web</span> Developer</h2>
-    <img class="bottom_cloud" src="images/cloud.png" alt="cloud.png">
-    <img class="mountain" src="images/mountain.png" alt="mountain.png">
-  </div>
-
-  <!--middle-container-->
-  <div class="middle-container">
-    <div class="profile">
-      <img class="image_profile" src="images/vicha_nan.png" alt="">
-      <h2><em>Founder of <strong> <a href="#">Financial Book</a></strong>.</em></h2>
-      <p class="intro" >I will be a very strong web developper. I ❤ coffee☕ . i love running 🏃</p>
-
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="skills">
-  <h2>My Skills.</h2>
-    <div class="div_skill_row">
-      <img class="skill_image" src="https://media3.giphy.com/media/m9vtdeYtIPJ2FvXj7L/200w.webp?cid=ecf05e47v82b4mb726i8ptdou89l5irvgk0bfw6169sz4wjm&rid=200w.webp
-" alt="">
-      <!-- <h3>Lorem & Ipsum</h3> -->
-
-      <!-- <p class="work_p" >Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p> -->
-      <table class="tbl_my_skill" cellspacing="10">
-        <tr>
-          <td>
-            <table cellspacing="10">
-              <tbody>
-                <tr>
-                  <td>Microsoft Excel Finance</td>
-                  <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Microsoft Office</td>
-                  <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Web Development</td>
-                  <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Photo Shop</td>
-                  <td>⭐⭐</td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-          <td>
-            <table cellspacing="10">
-              <tbody>
-                <tr>
-                  <td>PHP </td>
-                  <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>HTML</td>
-                  <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>CSS</td>
-                  <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                  <td>Java Script</td>
-                  <td>⭐⭐</td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </table>
-
-    </div>
-      <hr>
-        <h2>Work Experience</h2>
-    <div class="div_skill_row">
-      <img class="work_image" src="https://media1.giphy.com/media/JIX9t2j0ZTN9S/200w.webp?cid=ecf05e479y3hqkqu0ocugqk83dd4yjp83lpbb42ytq5zat49&rid=200w.webp" alt="cat_working">
-
-      <!-- <p class="work_p">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p> -->
-      <table cellspacing="10">
-        <thead>
-          <tr>
-            <th>DATE</th>
-            <th>WORK</th>
-            <th>POSITION</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>JUL 2019 - MAY 2020</td>
-            <td>Global Business Travel Company</td>
-            <td>Finance and Accounting Travel</td>
-          </tr>
-
-          <tr>
-            <td>MAR 2017 - JUN 2019</td>
-            <td>GO 365 Travel co.,th</td>
-            <td>Finance and Accounting Travel</td>
-          </tr>
-
-          <tr>
-            <td>OCT 2016 - FEB 2017</td>
-            <td>GS Security Services co.,ltd</td>
-            <td>Billing and Collection</td>
-          </tr>
-        </tbody>
-      </table>
-
+    <div id="navber" class="navbar top">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-book-open"></i>Edge</span>Ledger
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cases">Case</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
 
-  </div>
+    <div class="content">
+      <h1>The Sky Is The Limit</h1>
+      <p>We provide world class financial assistance</p>
+      <a href="#about" class="btn"><i class="fas fa-chevron-right"></i>Read More</a>
+    </div>
 
-  <hr>
+  </header>
 
-  <div class="contact-me">
-    <p>Get In Touch</p>
-    <p>📤 E-mail -> vicha142527@Gmail.com</p>
-    <p>☎ Tel -> +66 83 441-7383</p>
-    <a class="btn" href="mailto:vicha142527@Gmail.com">CONTACT ME</a>
-  </div>
+  <main>
+    <!-- About:Icon -->
+    <section id="about" class="icons bg-light">
+      <div class="flex-items">
+        <div>
+          <i class="fas fa-university fa-2x"></i>
+          <div>
+            <h3>Investment Banking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, fuga!</p>
+          </div>
+        </div>
 
+        <div>
+          <i class="fas fa-book-reader fa-2x"></i>
+          <div>
+            <h3>Portfolio Manager</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, fuga!</p>
+          </div>
+        </div>
 
-  <!--bottom-container-->
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.vicha142527@Gmail.com.com/"> LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="p_footer">© 2020 Vicha Pratummanee.</p>
-  </div>
+        <div>
+          <i class="fas fa-pencil-alt fa-2x"></i>
+          <div>
+            <h3>Tax & custodial</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, fuga!</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- About:Solution -->
+    <section class="solution flex-columns bg-primary">
+      <div class="row">
+        <div class="column">
+            <div class="column-1">
+              <img src="img/home/people.jpg" alt="people">
+            </div>
+        </div>
+        <div class="column">
+            <div class="column-2">
+              <h4>What you are looking for</h4>
+              <h2>We provide bespoke solutions</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis doloremque omnis voluptas ipsam, impedit dolorem ullam repellat, labore amet et cupiditate harum iste maxime nisi, quidem incidunt veniam quasi.</p>
+              <a href="" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Read More
+              </a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cases -->
+    <section id="cases" class="cases flex-grid section-padding">
+
+      <header class="section-header">
+        <h4>This is what we do</h4>
+        <h2>Business Card</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?</p>
+      </header>
+
+      <div class="row">
+        <div class="column">
+          <a href="img/cases/cases1.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?">
+            <img src="img/cases/cases1.jpg" alt="cases1">
+          </a>
+
+          <a href="img/cases/cases2.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?">
+            <img src="img/cases/cases2.jpg" alt="cases2">
+          </a>
+        </div>
+
+        <div class="column">
+          <a href="img/cases/cases3.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?">
+            <img src="img/cases/cases3.jpg" alt="cases3">
+          </a>
+
+          <a href="img/cases/cases4.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?">
+            <img src="img/cases/cases4.jpg" alt="cases4">
+          </a>
+          
+        </div>
+
+        <div class="column">
+          <a href="img/cases/cases5.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?">
+            <img src="img/cases/cases5.jpg" alt="cases5">
+          </a>
+
+          <a href="img/cases/cases6.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?">
+            <img src="img/cases/cases6.jpg" alt="cases6">
+          </a>
+         
+        </div>
+        <div class="column">
+          <a href="img/cases/cases7.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?">
+            <img src="img/cases/cases7.jpg" alt="cases7">
+          </a>
+          <a href="img/cases/cases8.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?">
+            <img src="img/cases/cases8.jpg" alt="cases8">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="solution flex-columns flex-reverse bg-secondary">
+      <div class="row">
+        <div class="column">
+            <div class="column-1">
+              <img src="img/home/blog.jpg" alt="people">
+            </div>
+        </div>
+        <div class="column">
+            <div class="column-2">
+              <h4>September 19 2020</h4>
+              <h2>Blog Post One</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis doloremque omnis voluptas ipsam, impedit dolorem ullam repellat, labore amet et cupiditate harum iste maxime nisi, quidem incidunt veniam quasi.</p>
+              <a href="blog.html" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Read Our Blog
+              </a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+
+    <section id="team" class="team section-padding">
+      <header class="section-header">
+        <h4>Who We are</h4>
+        <h2>Our Profassinal Team</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt?</p>
+      </header>
+      <div class="flex-items">
+        <div>
+          <img src="img/team/person1.jpg" alt="person1">
+          <h4>John Woo</h4>
+          <p>President</p>
+        </div>
+
+        <div>
+          <img src="img/team/person2.jpg" alt="person2">
+          <h4>Janifer Lopez</h4>
+          <p>Vice President</p>
+        </div>
+
+        <div>
+          <img src="img/team/person3.jpg" alt="person3">
+          <h4>Mark Weber</h4>
+          <p>Marketing</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact" class="contact flex-columns bg-primary">
+      <div class="row">
+        <div class="column">
+            <div class="column-1">
+              <img src="img/home/contact.jpg" alt="people">
+            </div>
+        </div>
+        <div class="column">
+            <div class="column-2 bg-light">
+              <h2>Request Callback</h2>
+              <form action="mailto:vicha142527@gmail.com" method="post" class="callback-form" enctype="text/plain">
+                  <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="name" name="name" id="name" placeholder="Enter Your Name">
+                  </div>
+                  <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                  </div>
+                  <div class="form-control">
+                    <label for="phone">Phone</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone">
+                  </div>
+                  <div class="form-control">
+                    <label for="message">Message</label>
+                   <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                  </div>
+                  <input type="submit" value="send" id="submit" class="btn">
+              </form>
+            </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+      <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+      <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+      <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2020 - EdgeLedger</p>
+  </footer>
+  
+  
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Js  -->
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/index.js"></script>
+  
 </body>
-
 </html>
