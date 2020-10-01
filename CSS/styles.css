@@ -1,0 +1,282 @@
+html
+{
+
+}
+
+body
+{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+  /* font-family: 'Merriweather', serif; */
+}
+
+h1
+{
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5.625rem;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  color:#66BFBF;
+  line-height: 2;
+}
+
+h2
+{
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+
+}
+
+h3
+{
+  color: #11999E;
+
+}
+
+p
+{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-size: 1.625rem;
+  color: #40514E;
+  margin: 0px auto 20px auto;
+}
+
+a
+{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.footer-link
+{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #EAF6F6;
+}
+
+.p_footer
+{
+    color:#EAF6F6;
+    line-height: 2;
+    font-size: 0.75 rem;
+    padding: 20px 0;
+}
+
+hr
+{
+  margin: 50px auto;
+  border: dotted;
+  border-bottom: none;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  width: 10%;
+
+
+}
+
+.wed
+{
+  text-decoration: underline;
+  font-weight: normal;
+  color: blue;
+}
+
+.intro
+{
+  width: 33%;
+  margin: auto;
+}
+
+.image_profile
+{
+  width: 300px;
+  height: 250px;
+}
+
+.container_top
+{
+  margin: 0;
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+  /* width: 200px;
+  height: 200px; */
+}
+
+.container_middle
+{
+    margin: 100px 0;
+}
+
+.skills
+{
+/* position: relative; */
+}
+
+.contact-me
+{
+  /* background-color: #66BFBF; */
+  margin: 0;
+  padding-top: 10px;
+
+}
+
+.bottom-container
+{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+}
+
+.parrot_bird
+{
+  /* position: relative; */
+  /* bottom: 0px;
+  top: 0px;
+  left: 1200px;
+  right: 0px; */
+  width: 100px;
+  height: 60px;
+  margin-left: 500px;
+  display: inline;
+
+}
+
+.h2_con_top
+{
+  margin-top: 10px;
+
+}
+
+.top_cloud
+{
+  position: relative;
+  left: 500PX;
+  top: 0PX;
+
+}
+
+.bottom_cloud
+{
+  position: relative;
+  right:  200px;
+  bottom: 250px;
+
+}
+
+.mountain
+{
+  width: 600px;
+  height: 300px;
+}
+
+.div_skill_row
+{
+  position: relative;
+  width: 900px;
+  height: 200px;
+  margin: 0px auto 100px auto;
+  text-align: left;
+
+
+
+  /* display: inline-block; /* change the default display type to inline-block */
+  /* overflow: hidden;      /* hide the overflow */ */ */
+}
+
+
+.work_p
+{
+  margin-top: 0px;
+}
+
+.tbl_my_skill
+{
+  float: right;
+  width: 300px;
+  height: 200px;
+  /* border: 2px solid; */
+  margin: 0px 20px 0px 0px;
+}
+
+.skill_image
+{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    border: 2px solid;
+    margin: 0px 0px 0px 30px;
+    /* margin-top: 50px; */
+    display: block;
+    float: left;
+    /* position: static; */
+
+
+}
+
+.work_image
+{
+  /* background-size: 150px; */
+  /* position: absolute; */
+  width: 300px;
+  height: 200px;
+  border: 2px solid;
+  border-radius: 30px;
+  margin: 0px 0px 0px auto;
+  /* margin-top: 50px; */
+  float: right;
+
+}
+
+.p_footer
+{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: #EAF6F6;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
